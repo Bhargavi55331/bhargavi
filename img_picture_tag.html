@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <title>Using img tag with CSS</title>
+
+  <style>
+
+    body {
+
+      font-family: Arial, sans-serif;
+
+      background-color: #f0f0f0;
+
+      padding: 120px;
+
+    }
+
+    h2 {
+
+      color: #333;
+
+    }
+
+    .img-container {
+
+      max-width: 50%;
+
+      margin-bottom: 50px;
+
+    }
+
+    .img-container img {
+
+      max-width: 50%;
+
+      height: 150;
+
+      display: block;
+
+      margin: 0 auto;
+
+      border: 1px solid #ccc;
+
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <h2> img tag with CSS</h2>
+
+  <div class="img-container">
+
+    <img src="C:\Users\JNCPG\Downloads\flower.webp" alt=" image">
+
+  </div>
+
+  <h2>picture tag</h2>
+
+  <picture>
+
+    <!-- Source for browsers that support the WebP format -->
+
+    <source srcset=" C:\Users\JNCPG\Downloads\birds.jpeg" type="image/jpeg">
+
+    <img src=" C:\Users\JNCPG\Downloads\birds.jpeg" alt="Example Image">
+
+  </picture>
+
+  <style> 
+
+    body {
+
+      font-family: Arial, sans-serif;
+
+      background-color: #f0f0f0;
+
+      padding: 110px;
+
+    }
+
